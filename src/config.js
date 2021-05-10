@@ -5,6 +5,10 @@ module.exports = {
     host: process.env.REDIS_HOST || 'localhost',
     port: parseInt(process.env.REDIS_PORT, 10) || '6379',
   },
+  limiter: {
+    max: parseInt(process.env.MAX_LIMIT, 10) || 1,
+    duration: parseInt(process.env.DURATION_LIMIT, 10) || 1000,
+  },
   smtp: {
     pool: true,
     host: 'smtp.ethereal.email',

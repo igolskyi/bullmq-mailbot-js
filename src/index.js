@@ -1,4 +1,4 @@
-const worker = require('./mail/worker')
+const { worker } = require('./mail/worker')
 
 worker.on('completed', job => console.info(
   `Completed job ${job.id} successfully, sent email to ${job.data.to}`,
