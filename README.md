@@ -23,7 +23,14 @@ For testing the app, run:
   npm test 'your_destination@email.com'
 ```
 
-You can check results with the fake SMTP service [Ethereal](https://ethereal.email/) by previewURL.
+You can check results with the fake SMTP service [Ethereal](https://ethereal.email/) by previewURL that logs in the console where the main service is running.
+```bash
+# > npm start
+# Worker listening for jobs
+
+# Completed job 1 successfully, sent email to your_destination@email.com
+# Preview URL: https://ethereal.email/message/X10VNAfHaE2Q4Y27YJkgU3B3LiUoCotYAAACqcDAPmq3oahUiWxXDmkS1GI
+```
 
 **Note**, in order to be able to send emails with this module you need to a local Redis™ instance running.
 
