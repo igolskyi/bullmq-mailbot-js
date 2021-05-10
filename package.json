@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "test": "node tests/send-simple"
+    "start": "node src/index",
+    "test": "node src/tests/send-simple"
   },
   "keywords": [],
   "author": "Iurii Golskyi <igolskyi@gmail.com>",

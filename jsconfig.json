@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "./src",
   },
   "exclude": ["node_modules", "public", "dist", "keys"]
 }

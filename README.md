@@ -18,7 +18,7 @@ and then run the main service:
   npm start
 ```
 
-For testing the app, run:
+To test the service, in a separate terminal, run:
 ```bash
   npm test 'your_destination@email.com'
 ```
