@@ -21,6 +21,11 @@ and then run the main service:
 To test the service, in a separate terminal, run:
 ```bash
   npm test 'your_destination@email.com'
+
+  # Stop the main service and send several messages, then start the service again.
+  # You can see how all messages are resent.
+  # Also you can run previous test command.
+  npm run test-retry 'your_destination@email.com'
 ```
 
 You can check results with the fake SMTP service [Ethereal](https://ethereal.email/) by previewURL that logs in the console where the main service is running.
