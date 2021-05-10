@@ -6,10 +6,12 @@
   "scripts": {
     "start": "node src/index",
     "test": "node src/tests/send-simple",
-    "test-retry": "node src/tests/send-retry"
+    "test-limited": "node src/tests/send-limited",
+    "test-retry": "node src/tests/send-retry",
+    "test-delay": "node src/tests/send-delay"
   },
   "keywords": [],
-  "author": "Iurii Golskyi <igolskyi@gmail.com>",
+  "author": "Manuel Astudillo <manast@taskforce.sh>, Iurii Golskyi <igolskyi@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.25.0",
