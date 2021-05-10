@@ -1,6 +1,8 @@
 # bullmq-mailbot-js
 JavaScript port for example [bullmq-mailbot](https://github.com/taskforcesh/bullmq-mailbot) on ES6+
 
+[![codebeat badge](https://codebeat.co/badges/75c74ed9-8731-48be-8209-9bc05c623324)](https://codebeat.co/projects/github-com-igolskyi-bullmq-mailbot-js-part2)
+
 See [BullMQ Tutorial - Mailbot](https://blog.taskforce.sh/implementing-mail-microservice-with-bullmq/)
 This tutorial shows how to easily create a bot for sending emails. The tutorial is divided into several parts, every part is located on a different branch so that you can navigate the code easily matching the tutorial text.
 
