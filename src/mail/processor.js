@@ -6,11 +6,8 @@ const transporter = nodemailer.createTransport(smtp)
 
 module.exports = async job => {
   try {
-    // TODO: Rewrite with const
-    let attachments
-
-    if (job.data.htmlAttachments) {
-      attachments = await Promise.all(
+    const attachments = job.data.htmlAttachments
+      ? await Promise.all(
         job.data.htmlAttachments.map(async attachment => {
           const browser = await puppeteer.launch({
             headless: true,
@@ -34,7 +31,7 @@ module.exports = async job => {
           }
         }),
       )
-    }
+      : []
 
     const info = await transporter.sendMail({
       ...job.data.mailOpts,
