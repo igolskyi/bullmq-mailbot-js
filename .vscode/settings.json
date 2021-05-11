@@ -9,6 +9,7 @@
     "backoff",
     "bullmq",
     "camelcase",
+    "codebeat",
     "mailbot",
     "returnvalue"
   ]
