@@ -4,7 +4,7 @@ JavaScript port for example [bullmq-mailbot](https://github.com/taskforcesh/bull
 [![codebeat badge](https://codebeat.co/badges/4b7f86c3-df1d-4325-8ce9-53b1fdfa1eae)](https://codebeat.co/projects/github-com-igolskyi-bullmq-mailbot-js-part1)
 
 See [BullMQ Tutorial - Mailbot](https://blog.taskforce.sh/implementing-mail-microservice-with-bullmq/)
-This tutorial shows how to easily create a bot for sending emails. The tutorial is divided into several parts, every part is located on a different branch so that you can navigate the code easily matching the tutorial text.
+This tutorial shows how to easily create a bot for sending emails. The tutorial is divided into several parts, **every part is located on a different branch** so that you can navigate the code easily matching the tutorial text.
 
 ## Install
 
@@ -39,4 +39,4 @@ You can check results with the fake SMTP service [Ethereal](https://ethereal.ema
 JavaScript implementation:
 - [x] part1
 - [x] part2
-- [ ] part3
+- [x] part3
