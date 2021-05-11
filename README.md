@@ -45,4 +45,4 @@ You can check results with the fake SMTP service [Ethereal](https://ethereal.ema
 JavaScript implementation:
 - [x] part1
 - [x] part2
-- [ ] part3
+- [x] part3
