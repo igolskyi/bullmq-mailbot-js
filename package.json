@@ -8,7 +8,8 @@
     "test": "node src/tests/send-simple",
     "test-limited": "node src/tests/send-limited",
     "test-retry": "node src/tests/send-retry",
-    "test-delay": "node src/tests/send-delay"
+    "test-delay": "node src/tests/send-delay",
+    "test-attachment": "node src/tests/send-attachment.js"
   },
   "keywords": [],
   "author": "Manuel Astudillo <manast@taskforce.sh>, Iurii Golskyi <igolskyi@gmail.com>",
@@ -20,6 +21,7 @@
   },
   "dependencies": {
     "bullmq": "^1.24.4",
-    "nodemailer": "^6.6.0"
+    "nodemailer": "^6.6.0",
+    "puppeteer": "^9.1.1"
   }
 }

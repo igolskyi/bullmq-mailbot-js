@@ -22,12 +22,12 @@ and then run the main service:
 
 To test the service, in a separate terminal, run:
 ```bash
+  npm run test-attachment 'test@email.com'
+
+  # also you can run another test commands:
   npm test 'test@email.com'
-
   npm run test-limited 'test@email.com'
-
   npm run test-retry 'test@email.com'
-  
   npm run test-delay 'test@email.com'
 ```
 
