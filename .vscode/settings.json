@@ -1,5 +1,12 @@
 {
+  "eslint.workingDirectories": [
+    {
+      "directory": "./src/",
+      "changeProcessCWD": true
+    },
+  ],
   "cSpell.words": [
+    "backoff",
     "bullmq",
     "camelcase",
     "mailbot",

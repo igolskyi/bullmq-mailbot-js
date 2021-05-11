@@ -8,4 +8,6 @@ const worker = new Worker('mailbot', `${__dirname}/processor.js`, {
 
 console.info('Worker listening for jobs')
 
-module.exports = worker
+module.exports = {
+  worker,
+}

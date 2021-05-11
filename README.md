@@ -22,7 +22,7 @@ and then run the main service:
 
 To test the service, in a separate terminal, run:
 ```bash
-  npm test 'your_destination@email.com'
+  npm test 'test@email.com'
 ```
 
 You can check results with the fake SMTP service [Ethereal](https://ethereal.email/) by previewURL that logs in the console where the main service is running.
@@ -38,5 +38,5 @@ You can check results with the fake SMTP service [Ethereal](https://ethereal.ema
 
 JavaScript implementation:
 - [x] part1
-- [ ] part2
+- [x] part2
 - [ ] part3
