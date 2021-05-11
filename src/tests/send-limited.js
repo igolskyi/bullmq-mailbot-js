@@ -13,10 +13,12 @@ for (let i = 0; i < NUM_MAILS; i += 1) {
   client.enqueue(
     'rate-limited',
     {
-      from: 'manast@taskforce.sh',
-      to: args[0],
-      subject: 'Your first week with BullMq',
-      text: 'This is an engagement email!',
+      mailOpts: {
+        from: 'manast@taskforce.sh',
+        to: args[0],
+        subject: 'Your first week with BullMq',
+        text: 'This is an engagement email!',
+      },
     },
   )
 }

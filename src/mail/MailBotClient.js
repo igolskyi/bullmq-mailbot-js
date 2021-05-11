@@ -14,8 +14,7 @@ function MailBotClient(opts) {
 
   this.enqueue = async function enqueue(jobName, mail) {
     await queue.add(jobName, mail)
-    const to = mail.to || mail.mailOpts.to
-    console.info(`Enqueued an email sending to ${to}`)
+    console.info(`Enqueued an email sending to ${mail.mailOpts.to}`)
   }
 
   this.close = function close() {
