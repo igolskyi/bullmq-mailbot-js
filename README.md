@@ -1,6 +1,7 @@
 # bullmq-mailbot-js
 JavaScript port for example [bullmq-mailbot](https://github.com/taskforcesh/bullmq-mailbot) on ES6+
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cc4b9ed156584e518faaf1a826e4ec24)](https://www.codacy.com/gh/igolskyi/bullmq-mailbot-js/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=igolskyi/bullmq-mailbot-js&amp;utm_campaign=Badge_Grade)
 [![codebeat badge](https://codebeat.co/badges/ef9802c6-7269-4af3-b4ac-40dfb4745b20)](https://codebeat.co/projects/github-com-igolskyi-bullmq-mailbot-js-part3)
 
 See [BullMQ Tutorial - Mailbot](https://blog.taskforce.sh/implementing-mail-microservice-with-bullmq/)
